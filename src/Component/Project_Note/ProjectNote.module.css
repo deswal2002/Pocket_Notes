@@ -29,7 +29,7 @@
     margin-top: 74vh;
     margin-left: 20vw;
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 408px) {
     .body {
         position: absolute;
         width: 100vw;

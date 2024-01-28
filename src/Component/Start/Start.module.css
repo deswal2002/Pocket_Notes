@@ -11,7 +11,7 @@
     height: 20rem; 
     margin-top: 18%;
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 408px) {
     .body {
       visibility: hidden;
     }

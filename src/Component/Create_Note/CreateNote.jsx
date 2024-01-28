@@ -20,7 +20,6 @@ function CreateNote(props) {
         }) 
     }
     const popRef = useRef(null);
-
     useEffect(() => {
         const close = (event) => {
             if (popRef.current && !popRef.current.contains(event.target)) {

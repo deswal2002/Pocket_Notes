@@ -10,7 +10,6 @@ function Group_List(props) {
     const navigate=useNavigate()
     let filename_detail
     let show_group=props.list
-    
     useEffect(()=>{
         dispatch(update())
     },[])
@@ -23,7 +22,6 @@ function Group_List(props) {
     const note=(filename,color)=>{
         localStorage.setItem('yourKey', 'new value');
         navigate("/notes")
-        console.log('kk')
         filename_detail=[filename,color]
         localStorage.setItem("your_choice",JSON.stringify(filename_detail))
         dispatch(update())

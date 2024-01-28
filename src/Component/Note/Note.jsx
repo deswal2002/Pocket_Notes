@@ -11,11 +11,7 @@ function Note() {
     const color=(useSelector((state) => state.File_save.colour))
     const [name,setName]=useState(JSON.parse(localStorage.getItem("your_choice")))
     const file_info=JSON.parse(localStorage.getItem(name[0])) || []
-    console.log("lo")
-    console.log(file_info)
     const [update_text,setupdate_text]=useState(file_info)
-    console.log("st")
-    console.log(update_text)
     useEffect(()=>{
         if(file_detail!==name[0]){
             setupdate_text(JSON.parse(localStorage.getItem(file_detail)))

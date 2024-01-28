@@ -1,9 +1,9 @@
 .body{
-    width: 75vw;
+    width: 76vw;
     height: 100vh;
 }
 .header{
-    width: 75vw;
+    width: 76vw;
     height: 10vh;
     background: #001F8B;
     display: flex;
@@ -30,7 +30,7 @@
     margin-top: 2.6vh;
 }
 .note_body{
-    width: 75vw;
+    width: 76vw;
     height: 63vh;
     background: #DAE5F5;
 }
@@ -59,7 +59,6 @@
     .note_body{
         width: 100vw;
         height: 70vh;
-        
     }
     .file_name{
         margin-top: 3vh;
@@ -69,7 +68,6 @@
         visibility: visible;
         width: 25px;
         height: 25px;
-        
         margin-top: 7.5%;
         margin-left: 2%;
         margin-right: 1.5%;

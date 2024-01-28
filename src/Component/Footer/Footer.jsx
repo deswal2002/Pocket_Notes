@@ -8,7 +8,6 @@ function Footer(props) {
     time:""
   })
   useEffect(()=>{
-    console.log("new_group")
     settext_date({
       ...text_date,
       text:""
@@ -32,9 +31,6 @@ function Footer(props) {
     news_date_time.time=times
     news_date_time.text=text_date.text
     if(text_date.text.length){
-      console.log("this")
-      console.log(text_date)
-      console.log(props.text)
       props.settext([...props.text,news_date_time])
     }
     settext_date({

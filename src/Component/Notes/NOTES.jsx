@@ -1,6 +1,6 @@
 import React from 'react'
-import ProjectNote from '../Component/Project_Note/ProjectNote'
-import Note from '../Component/Note/Note'
+import ProjectNote from '../Project_Note/ProjectNote'
+import Note from '../Note/Note'
 import styles from './NOTES.module.css'
 
 function NOTES() {

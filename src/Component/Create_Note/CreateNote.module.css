@@ -3,7 +3,6 @@
     height: 100vh;
     width: 100vw;
     background: rgba(47, 47, 47, 0.75);
-    
 }
 .create_box{
     width: 40vw;
@@ -98,8 +97,7 @@ button{
     margin-left:83%;
     font-size:1rem
 }
-@media only screen and (max-width: 415px) {
-    
+@media only screen and (max-width: 415px) { 
     .create_box{
         width: 70vw;
         height: 20vh;

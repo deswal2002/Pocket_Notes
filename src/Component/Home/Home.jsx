@@ -12,7 +12,7 @@ function Home() {
     <div style={{
         display:"flex"
     }}>
-      <div>
+      <div style={{width:"24vw",background:"black"}}>
       <ProjectNote/>
       </div> 
     <Start/>

@@ -3,9 +3,6 @@ import styles from './View_notes.module.css'
 import dot from '../../assets/icon/dot.svg'
 function View_notes(props) {
     const note=props.name || JSON.parse(localStorage.getItem(props.file_name))
-    console.log("veiw")
-    console.log(note)
-    console.log("show")
   return (
     <div className={styles.body} >
         {note?.map((obj)=>(

@@ -1,0 +1,36 @@
+.body{
+    width: 75vw;
+    height: 100vh;
+}
+.header{
+    width: 75vw;
+    height: 10vh;
+    background: #001F8B;
+    display: flex;
+    flex-direction: row;
+}
+.circle{
+    width: 4vw;
+    height: 8vh;
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFF;
+    font-size: 140%;
+    margin-left: 1.5vw;
+    margin-top: 1vh;
+}
+.file_name{
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    margin-left: 1.5vw;
+    margin-top: 2.6vh;
+}
+.note_body{
+    width: 75vw;
+    height: 63vh;
+    background: #DAE5F5;
+}

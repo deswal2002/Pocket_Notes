@@ -1,0 +1,35 @@
+.footer{
+    width: 75vw;
+    height: 27vh;
+    background: #001F8B;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text{
+    width: 72vw;
+    height: 23vh;
+    background: #FFF;
+    border-radius: 9px;
+    border: 1px solid #CCC;
+}
+.your_text{
+    width: 70vw;
+    height: 16vh;
+    resize: none;
+    border: none;
+    overflow: auto;
+    outline: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 29.816px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 2%;
+    border-radius: 9px;
+}
+.arrow{
+    margin-left: 95%;
+    margin-top: .5%;
+}

@@ -47,7 +47,7 @@
     .body {
       width: 100vw;
       height: 70vh;
-      height: -webkit-fill-available;
+      
     }
     .box{
         width: 78vw;

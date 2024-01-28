@@ -29,16 +29,18 @@
     margin-top: 74vh;
     margin-left: 20vw;
 }
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 410px) {
     .body {
         position: absolute;
         width: 100vw;
         height: 100vh;   
     }
     .create{
-        margin-left: 85vw;
+        margin-left: 78vw;
+        margin-top: 72vh;
     }
     .plus{
-        margin-left: 89vw;
+        margin-left: 82vw;
+        margin-top: 71vh;
     }
 }

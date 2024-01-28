@@ -32,8 +32,8 @@
 @media only screen and (max-width: 415px) {
     .body {
         position: absolute;
-        width: 90vw;
-        height: 90vh;
+        width: 95vw;
+        height: 95vh;
         background: wheat;
     }
   }

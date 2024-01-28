@@ -49,12 +49,16 @@
 }
 @media only screen and (max-width: 415px) {
     .show_box{
-        width: 85vw;
+        width: 95vw;
         font-size: 18px;
         padding-left: 2%;
+        background: wheat;
     }
     .circle{
-        width: 14vw;
-        height: 6vh;
+        width: 16vw;
+        height: 8vh;
+    }
+    .name{
+        font-size: 28px;
     }
 }

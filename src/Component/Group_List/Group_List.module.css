@@ -54,6 +54,7 @@
         width: 96vw;
         font-size: 18px;
         padding-left: 2%;
+        height: -webkit-fill-available;
     }
     .circle{
         width: 16vw;

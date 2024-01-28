@@ -33,18 +33,24 @@
     margin-top: .5%;
 }
 @media only screen and (max-width: 415px) {
+    html{
+        height: -webkit-fill-available;
+    }
     .footer{
         width: 100vw;
         height: 20vh;
+        height: -webkit-fill-available;
     }
     .text{
         height: 17vh;
         width: 92vw;
+        height: -webkit-fill-available;
     }
     .your_text{
         font-size: 20px;
         height: 12.5vh;
         width: 85vw;
+        height: -webkit-fill-available;
     }
     .arrow{
         margin-left: 88%;

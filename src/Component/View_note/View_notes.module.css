@@ -41,9 +41,13 @@
     font-weight: 600;
 }
 @media only screen and (max-width: 415px) {
+    html{
+        height: -webkit-fill-available;
+    }
     .body {
       width: 100vw;
       height: 70vh;
+      height: -webkit-fill-available;
     }
     .box{
         width: 78vw;

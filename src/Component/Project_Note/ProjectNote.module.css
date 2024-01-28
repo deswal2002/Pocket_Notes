@@ -31,10 +31,14 @@
     margin-left: 19vw;
 }
 @media only screen and (max-width: 415px) {
+    html{
+        height: -webkit-fill-available;
+    }
     .body {
         position: absolute;
         width: 100vw;
         height: 100vh;   
+        height: -webkit-fill-available;
     }
     .create{
         margin-left: 78vw;

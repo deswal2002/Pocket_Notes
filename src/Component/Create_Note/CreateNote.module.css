@@ -99,12 +99,16 @@ button{
     font-size:1rem
 }
 @media only screen and (max-width: 415px) {
+    html{
+        height: -webkit-fill-available;
+    }
     .create_box{
         width: 70vw;
         height: 20vh;
         border-radius: 8px;
         margin-left: 6%;
         margin-top: 65%;
+        height: -webkit-fill-available;
     }
     p{
         font-size: 20px;
@@ -116,11 +120,13 @@ button{
         width: 32vw;
         height: 2vh;
         font-size: 12px;
+        height: -webkit-fill-available;
     }
     .choose{
         width: 12px;
         height: 12px;
         margin-left: 10px;
+        height: -webkit-fill-available;
     }
     button{
         width: 40vw;
@@ -128,6 +134,7 @@ button{
         font-size: 18px;
         margin-left: 15%;
         margin-top: 5%;
+        height: -webkit-fill-available;
     }
     .error{
         margin-left: 50%;

@@ -40,6 +40,9 @@
     height: 0%;
 }
 @media only screen and (max-width: 415px) {
+    html{
+        height: -webkit-fill-available;
+    }
     .body{
         width: 100vw;
     }
@@ -49,10 +52,12 @@
     .circle{
         width: 16vw;
         height: 8vh;
+        height: -webkit-fill-available;
     }
     .note_body{
         width: 100vw;
         height: 70vh;
+        height: -webkit-fill-available;
     }
     .file_name{
         margin-top: 3vh;
@@ -62,6 +67,7 @@
         visibility: visible;
         width: 25px;
         height: 25px;
+        height: -webkit-fill-available;
         margin-top: 7.5%;
         margin-left: 2%;
         margin-right: 1.5%;

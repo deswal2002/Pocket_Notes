@@ -32,8 +32,13 @@
 @media only screen and (max-width: 415px) {
     .body {
         position: absolute;
-        width: 95vw;
-        height: 95vh;
-        background: wheat;
+        width: 100vw;
+        height: 100vh;   
     }
-  }
+    .create{
+        margin-left: 85vw;
+    }
+    .plus{
+        margin-left: 89vw;
+    }
+}

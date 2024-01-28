@@ -12,7 +12,9 @@ function Home() {
     <div style={{
         display:"flex"
     }}>
-    <ProjectNote/>
+      <div>
+      <ProjectNote/>
+      </div> 
     <Start/>
     </div>
   )

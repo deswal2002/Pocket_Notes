@@ -2,7 +2,6 @@
     width: 75vw;
     height: 27vh;
     background: #001F8B;
-    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -32,4 +31,23 @@
 .arrow{
     margin-left: 95%;
     margin-top: .5%;
+}
+@media only screen and (max-width: 415px) {
+    .footer{
+        width: 100vw;
+        height: 20vh;
+    }
+    .text{
+        height: 17vh;
+        width: 92vw;
+    }
+    .your_text{
+        font-size: 20px;
+        height: 12.5vh;
+        width: 85vw;
+    }
+    .arrow{
+        margin-left: 88%;
+        margin-top: 0%;
+    }
 }

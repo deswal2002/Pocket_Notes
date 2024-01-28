@@ -3,7 +3,10 @@ import styles from './Note.module.css'
 import { useSelector } from 'react-redux'
 import Footer from '../Footer/Footer'
 import View_notes from '../View_note/View_notes'
+import arrow from '../../assets/icon/arrow_to_home.svg'
+import { useNavigate } from 'react-router-dom'
 function Note() {
+    const navigate=useNavigate()
     const file_detail=(useSelector((state) => state.File_save.filename))
     const color=(useSelector((state) => state.File_save.colour))
     const [name,setName]=useState(JSON.parse(localStorage.getItem("your_choice")))
@@ -34,6 +37,7 @@ function Note() {
   return (
     <div className={styles.body}>
         <header className={styles.header}>
+            <img src={arrow} className={styles.arrow} onClick={()=>navigate("/")}/>
             <div className={styles.circle} style={{background:name[1]}}>{short_form()}</div>
             <p className={styles.file_name}>{name[0]}</p>
         </header>

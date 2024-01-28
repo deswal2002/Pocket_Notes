@@ -47,7 +47,7 @@ function Footer(props) {
   return (
     <div className={styles.footer}>
         <div className={styles.text}>
-          <textarea rows="3" name='text' value={text_date.text} onChange={(event)=>update_text(event)} className={styles.your_text} placeholder='Here’s the sample text for sample work'/>
+          <textarea rows="3" name='text' value={text_date.text} onChange={(event)=>update_text(event)} className={styles.your_text} placeholder='Enter your text here...........'/>
           <input type='image' onClick={submit} className={styles.arrow} src={arrow}/>
         </div>
     </div>

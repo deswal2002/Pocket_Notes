@@ -2,7 +2,7 @@
     background: #FFF;
     display:  flex;
     flex-direction: column;
-    width: 25%;
+    width: 100%;
     height: 100vh;
     padding-top: 5vh;
     box-sizing: border-box;
@@ -14,12 +14,13 @@
     align-items: "center";
     margin-left: 4vw;
 }
+
 .create{
     position: fixed;
     margin-top: 75vh;
     height: 5rem;
     width: 5rem;
-    margin-left: 19vw;
+    margin-left: 18vw;
 }
 .plus{
     position: fixed;
@@ -27,9 +28,9 @@
     font-family: Roboto;
     color: #FFF;
     margin-top: 74vh;
-    margin-left: 20vw;
+    margin-left: 19vw;
 }
-@media only screen and (max-width: 408px) {
+@media only screen and (max-width: 415px) {
     .body {
         position: absolute;
         width: 100vw;

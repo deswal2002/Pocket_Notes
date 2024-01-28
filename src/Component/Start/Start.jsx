@@ -21,7 +21,7 @@ function Start() {
                 fontWeight: "500",
                 width:"37rem"
             }}>Send and receive messages without keeping your phone online. Use Pocket Notes on up to 4 linked devices and 1 mobile phone</p>
-            <div style={{display:"flex",marginTop:"22%",gap:"0.5rem",marginLeft:"29%"}}>
+            <div style={{display:"flex",marginTop:"16%",gap:"0.5rem",marginLeft:"29%"}}>
                 <img src={lock}/>
                 <p style={{
                     color: "#292929",

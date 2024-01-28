@@ -34,9 +34,9 @@
         height: -webkit-fill-available;
     }
     .body {
-        position: absolute;
         width: 100vw;
-        height: 100vh;      
+        height: 100vh; 
+            
     }
     .create{
         margin-left: 78vw;
